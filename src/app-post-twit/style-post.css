@@ -1,0 +1,116 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(7, 39, 65);
+}
+a{
+    text-decoration: none;
+}
+.post-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px 10px 16px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.profilepict{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.all-info{
+    display: flex;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.verifed *{
+    fill: #fff;
+}
+.main_post_text{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.style{
+    font-size: 14px;
+    color: grey;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+}
+.name{
+    font-weight: 700;
+    color: #fff;
+}
+.content-photo{
+    margin-top: 10px;
+}
+.addition-photo-to-post{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.post{
+    margin-top: -10px;
+    margin-left: 50px;
+}
+.svgs{
+    fill: grey;
+}
+.activeBTN{
+    cursor: pointer;
+}
+.active_svg:hover{
+    fill: #fff;
+}
+
+.pressedRed{
+    cursor: pointer;
+    fill: red;
+}
+.pressedGreen{
+    cursor: pointer;
+    fill: green;
+}
+
+.all_buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn_stat{
+    color: grey;
+}
+
+
+.bottom_btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: all ease 0.1s;
+}
+.bottom_btn:hover{
+    background: rgba(0, 0, 255, 0.328);
+}
